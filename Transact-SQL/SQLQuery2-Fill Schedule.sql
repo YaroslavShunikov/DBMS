@@ -41,9 +41,23 @@ BEGIN
 	ELSE
 		SET @date=DATEADD(DAY,3,@date)
 END
+	DECLARE @learning_days NVARCHAR(50)='Tuesday,Thuethday,Saturday'
+	----SELECT TOP 2 * FROM string_split(@learning_days,',')
+	--PRINT
+	--(
+	--	DATENAME(DAYOFWEEK,@date)
+	--	IN 
+	--	(SELECT TOP 2 * FROM string_split(@learning_days,','))
+	--)
+	--PRINT DATEADD(DAY,IIF(DATENAME(WEEKDAY,@date) IN (SELECT TOP 2 * FROM string_split(@learning_days,',')), 2, 3), @date)
+
+	--SELECT value FROM string_split(@learning_days, ',')
+	--SELECT ROW_NUMBER() OVER (ORDER BY value) AS rownumber, value FROM string_split(@learning_days,',')
+	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-EXECUTE my_sp_select_from_schedule;
+--EXECUTE my_sp_select_from_schedule;
+--EXECUTE my_sp_select_discipline_for_group_from_schedule 'PD_321','%SQL%';
 --SELECT
 --	lesson_id,
 --	[Группа] = group_name,

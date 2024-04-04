@@ -19,17 +19,89 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery10-Trigger.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery10-Trigger.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1-INSERT INTO Schedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1-INSERT INTO Schedule.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery2-Fill Schedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery2-Fill Schedule.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery3-ERASE Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery3-ERASE Schedule.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4-CREATE PROC SELECT.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4-CREATE PROC SELECT.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery4-Select Celebration.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery4-Select Celebration.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5-Proc SELECT Disc.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5-Proc SELECT Disc.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery5-SELECT Complete_disciplines.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery5-SELECT Complete_disciplines.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery6-add_stacionar.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery6-add_stacionar.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7-Days.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7-Days.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery8-INSERT Celebrations.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery8-INSERT Celebrations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery9-Function.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-68UBTKOP60U\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-68UBTKOP60U\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery9-Function.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
